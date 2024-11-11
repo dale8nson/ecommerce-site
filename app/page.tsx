@@ -1,6 +1,5 @@
 "use client"
 // import { useEffect, useState } from "react";
-import { Anouncement } from "@/components/Announcement";
 
 export default function Home() {
 
@@ -13,7 +12,7 @@ export default function Home() {
 
   return (
     <div >
-      <Anouncement />
+      
     </div>
   );
 }

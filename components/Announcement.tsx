@@ -7,7 +7,7 @@ export const Anouncement = () => {
 
   return (
     <>
-      {isOpen && <div className="flex space-x-4 items-center justify-center gap-4 bg-black px-4 py-3 text-white">
+      {isOpen && <div className="flex space-x-4 items-center justify-center gap-4 bg-black px-4 py-3 text-white h-[38px]">
     <div className="flex space-x-4 flex-auto justify-center">
       <p className="text-sm font-medium">
         Sign up and get 20% off your first order!

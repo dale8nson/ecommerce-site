@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Anouncement } from "@/components/Announcement";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +17,7 @@ export default function RootLayout({
       <body
         className={`bg-white antialiased`}
       >
+        <Anouncement />
         {children}
       </body>
     </html>
