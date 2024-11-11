@@ -1,3 +1,5 @@
+"use client"
+
 export const Anouncement = () => {
   return (
     <div className="flex space-x-4 items-center justify-center gap-4 bg-black px-4 py-3 text-white">
